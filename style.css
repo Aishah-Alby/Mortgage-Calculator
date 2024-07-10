@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(197, 69%, 77%);
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.container1 {
+  display: inline-flex;
+  position: relative;
+  padding: 15px;
+  background-color: hsl(208, 100%, 97%);
+  border-radius: 10px;
+  width: 95dvb;
+  height: 70%;
+  margin-top: 10%;
+  margin-left: 10%;
+  justify-content: left;
+  align-content: center;
+}
+.form {
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.form h3 {
+  margin-top: 2%;
+}
+.container2 {
+  display: inline-flex;
+  position: absolute;
+  padding: 10px;
+  background-color: rgb(2, 40, 47);
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 65px;
+  width: 55dvb;
+  height: 58dvh;
+  margin-top: 10%;
+  top: -16.5%;
+  left: 65%;
+  color: hsl(208, 100%, 97%);
+}
+.container2 h3 {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  left: 30%;
+}
+.container2 img {
+  width: 70%;
+  height: 100%;
+  position: absolute;
+  left: 15%;
+  top: -5%;
+}
+.container2 p {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 75%;
+}
+.first-container {
+  height: 56px;
+}
+.amount-m {
+  display: flex;
+  margin-top: 2%;
+  width: 50dvb;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 1px solid hsl(97, 90%, 49%);
+}
+.dollar {
+  padding: 10px 0px 10px 10px;
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 100%;
+  color: hsl(208, 100%, 97%);
+  background-color: hsl(97, 90%, 49%);
+}
+#amount {
+  width: 100%;
+  outline: 0px;
+  font-size: 18px;
+  border: 0;
+  padding-left: 10px;
+}
+
+.Term {
+  display: flex;
+  margin-top: 2%;
+  width: 25.5dvb;
+  height: 5dvh;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 1px solid hsl(97, 90%, 49%);
+}
+#term {
+  width: 17dvb;
+  outline: 0px;
+  font-size: 18px;
+  border: 0;
+  padding-left: 10px;
+}
+.years {
+  padding: 5px 0px 5px 5px;
+  background-color: hsl(97, 90%, 49%);
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 50px;
+  height: 100%;
+}
+
+.Rates {
+  display: flex;
+  margin-top: 2%;
+  width: 25.5dvb;
+  height: 5dvh;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 1px solid hsl(97, 90%, 49%);
+  padding: 0;
+}
+#rates {
+  width: 17dvb;
+  outline: 0px;
+  font-size: 18px;
+  border: 0;
+  padding-left: 10px;
+}
+.percent {
+  padding: 5px 0px 5px 5px;
+  background-color: hsl(97, 90%, 49%);
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 50px;
+  height: 100%;
+}
+.mor-ate {
+  gap: 30px;
+}
+.mortgage {
+  display: inline-block;
+}
+.iRates {
+  display: inline-block;
+}
+
+.term-rate {
+  display: flex;
+  gap: 50px;
+}
+
+/* need to fix this*/
+.Repayment {
+  width: 50dvb;
+  border-width: 15dvb;
+  border: 0.2px solid hsl(97, 90%, 49%);
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+#Interest {
+  width: 50dvb;
+  border-width: 15dvb;
+  border: 0.2px solid hsl(97, 90%, 49%);
+  border-radius: 5px;
+}
+.digits {
+  border-radius: 10px;
+  background-color: rgb(1, 32, 19);
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.buttn {
+  background-color: rgb(4, 133, 51);
+  border-radius: 5px;
+  position: relative;
+  margin-left: 150px;
+  margin-top: 60;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  color: hsl(208, 100%, 97%);
+}
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.error-input {
+  border: 1px solid red;
+}
+@media only screen and (max-width: 768px) {
+  .container1 {
+    display: flex;
+    position: absolute;
+    padding: 15px;
+    background-color: hsl(208, 100%, 97%);
+    border-radius: 10px;
+    width: 65dvb;
+    height: 100dvh;
+    margin-top: 10%;
+    justify-content: left;
+    align-content: center;
+  }
+  .container2 {
+    display: inline-flex;
+    position: absolute;
+    padding: 10px;
+    background-color: rgb(2, 40, 47);
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    width: 66.5dvb;
+    height: 71.5dvh;
+    top: 90%;
+    left: 15%;
+    color: hsl(208, 100%, 97%);
+  }
+  .attribution {
+    position: absolute;
+    bottom: -100%;
+  }
+}
